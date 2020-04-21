@@ -1,11 +1,12 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "eu-west-3",
     BUCKET: "frankysnow1",
   },
   apiGateway: {
     REGION: "eu-central-1",
-    URL: "https://xeurmhh7ta.execute-api.eu-central-1.amazonaws.com/prod/",
+    URL: "https://xeurmhh7ta.execute-api.eu-central-1.amazonaws.com/prod",
   },
   cognito: {
     REGION: "eu-central-1",
